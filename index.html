@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matching Game</title>  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Quiz Game</h1>
+  <p>Drag the thing on the left over to the matching thing on the right</p>
+
+  <main class="container">
+    <div>
+      <ul class="draggable-list">
+        <li id="e1" draggable="true">question1</li>
+        <li id="e2" draggable="true">question2</li>
+        <li id="e3" draggable="true">question3</li>
+        <li id="e4" draggable="true">question4</li>
+        <li id="e5" draggable="true">question5</li>
+      </ul>
+    </div>
+    <div>
+      <ul class="draggable-list">
+        <li id="s2" draggable="true">answer1</li>
+        <li id="s5" draggable="true">answer2</li>
+        <li id="s1" draggable="true">answer3</li>
+        <li id="s3" draggable="true">answer4</li>
+        <li id="s4" draggable="true">answer5</li>
+      </ul>
+    </div>
+  </main>
+
+  <div id="endMessage">
+    <h3>Well done!</h3>
+    <table>
+      <tr>
+        <th>question</th>
+        <th>answer</th>
+      </tr>
+      <tr>
+        <td>question</td>
+        <td>answer</td>
+      </tr>
+      <tr>
+        <td>question</td>
+        <td>answer</td>
+      </tr>
+      <tr>
+        <td>question</td>
+        <td>answer</td>
+      </tr>
+      <tr>
+        <td>question</td>
+        <td>answer</td>
+      </tr>
+      <tr>
+        <td>question</td>
+        <td>answer</td>
+      </tr>
+    </table>
+
+    <button onclick="playAgain()">Play Again</button>
+  </div>
+  
+  
+  
+  <footer class="footer">
+      <p>
+        Copyright ©
+        <script>
+          document.write(new Date().getFullYear())
+        </script>
+        MICHELLE LILLIAN MAMMEN
+      </p>
+      <a href="https://www.google.com/search?q=no+photo+avalable+image&tbm=isch&ved=2ahUKEwi9icaHzYT7AhVX73MBHUS1AyYQ2-cCegQIABAA&oq=no+photo+avalable+image&gs_lcp=CgNpbWcQAzoECCMQJzoFCAAQgAQ6BAgAEEM6BggAEAcQHjoHCAAQsQMQQzoICAAQBRAHEB5QtgVYr0JgoUNoAnAAeACAAZkBiAHpEZIBBDMuMTiYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=GKxcY72dAdfez7sPxOqOsAI&bih=754&biw=1536" target="_blank">
+        <i class="footer"></i
+      ></a>
+    </footer>
+
+  <script src="script.js"></script>
+
+  
+</body>
+</html>
